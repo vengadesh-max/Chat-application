@@ -1,0 +1,14 @@
+{
+  "name": "chat-app-react-nodejs-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}

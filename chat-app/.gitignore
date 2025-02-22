@@ -1,0 +1,6 @@
+node_modules
+<<<<<<< HEAD
+=======
+.env.local
+>>>>>>> 4dcd32c (Added new files and folders)
+.env
