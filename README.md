@@ -1,64 +1,54 @@
-![login page](./images/snappy_login.png)
+## 💬 Chat-App 
 
-![home page](./images/snappy.png)
+**Chat-App** is a real-time messaging platform that enables seamless communication between multiple users. Powered by **Socket.io**, this full-stack application delivers smooth, instant chatting experiences.
 
-## Installation Guide
+📎 **GitHub Repository**: [https://github.com/vengadesh-max/Chat-application.git](https://github.com/vengadesh-max/Chat-application.git)
 
-### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
+---
 
-Both should be installed and make sure mongodb is running.
-### Installation
+## 🚀 Features 
 
-#### First Method
-```shell
-git clone https://github.com/vengadesh-max/Chat-application.git
-cd chat-app-react-nodejs
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
+- 🔐 User login with username and password  
+- 📝 Simple registration for new users  
+- 🧑‍🎨 Avatar upload after login  
+- 💬 Real-time 1-on-1 messaging  
+- 😄 Emoji sharing in chat  
 
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
+---
 
-For Frontend.
-```shell
-cd public
-yarn start
-```
-For Backend.
+## 🌱 Future Enhancements  
 
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd server
-yarn start
-```
-Done! Now open localhost:3000 in your browser.
+- 📎 File attachment support in chat  
+- 🎥 Live video calling functionality  
 
-#### Second Method
-- This method requires docker and docker-compose to be installed in your system.
-- Make sure you are in the root of your project and run the following command.
+---
 
-```shell
-docker compose build --no-cache
-```
-after the build is complete run the containers using the following command
-```shell
-docker compose up
-```
-now open localhost:3000 in your browser.
+## 🛠️ Getting Started 
+ -  Follow the steps below to run the application locally.
+
+---
+
+### 🔧 Backend Setup (Node.js + Express)  
+
+1. **Open terminal and navigate to the server folder:**
+    - Ensure MongoDB is running in the background.
+    - cd server
+    
+
+2. **Install dependencies and start backend server:**
+   - yarn install
+   - yarn start
+
+### 🌐 Frontend Setup (React) 
+1. **Open another terminal and navigate to the frontend directory:**
+    - cd public
+2. **Install dependencies and start frontend dev server:**
+    - yarn install
+     - yarn start
+
+### localhost
+ - **Open the application in your browser:**
+
+   - http://localhost:3000
+
+
